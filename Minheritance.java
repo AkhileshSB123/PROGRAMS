@@ -15,9 +15,10 @@ class C extends B{
 }
 public class Minheritance{
     public static void main(String[] args) {
-        C ob=new C();
-        ob.car();
-        ob.bike();
-        ob.cycle();
+        C od=new C();
+        od.car();
+        od.bike();
+        od.cycle();
     }
 }
+
