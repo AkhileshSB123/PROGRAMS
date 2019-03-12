@@ -8,10 +8,16 @@ class B extends A{
         System.out.println("Duke Bike");
     }
 }
-public class Inheritance{
+class C extends B{
+    public void cycle(){
+        System.out.println("Hero Cycle");
+    }
+}
+public class Minheritance{
     public static void main(String[] args) {
-        B ob=new B();
+        C ob=new C();
         ob.car();
         ob.bike();
+        ob.cycle();
     }
 }
